@@ -2,6 +2,7 @@ name: Android CI
 
 on:
   push:
+<<<<<<< HEAD
       branches:
             - main
               pull_request:
@@ -14,6 +15,8 @@ name: Android CI
 
 on:
   push:
+=======
+>>>>>>> 0305f77 (Add Android CI workflow)
     branches:
       - main
   pull_request:
@@ -47,6 +50,7 @@ jobs:
           name: app-debug
           path: app/build/outputs/apk/debug/app-debug.apk
 
+<<<<<<< HEAD
 
 on:
   push:
@@ -143,3 +147,5 @@ jobs:
                                                                                                                                                                 name: app-debug
                                                                                                                                                                           path: app/build/outputs/apk/debug/app-debug.apk
                                                                                                                                                                           
+=======
+>>>>>>> 0305f77 (Add Android CI workflow)
